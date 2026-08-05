@@ -76,6 +76,7 @@ table.facts th,table.facts td{text-align:left;padding:9px 14px;border-bottom:1px
 table.facts th[scope=row]{width:42%;color:var(--ink-soft);font-weight:600}
 table.facts.wide th{background:var(--paper-2);font-family:var(--serif)}
 table.facts tr:last-child th,table.facts tr:last-child td{border-bottom:0}
+table.facts tr.pick td{background:var(--paper-2);font-weight:600}
 .mono{font-family:var(--mono);font-size:.85rem;color:var(--ink-soft)}
 .verify{background:var(--paper-2);border:1px dashed var(--green);border-radius:10px;padding:18px 20px;margin:22px 0}
 .verify h2{border:0;margin-top:0;padding:0;font-size:1.15rem;color:var(--green)}
@@ -102,5 +103,5 @@ dl.glossary{margin:16px 0}
 .site-foot{background:var(--paper-2);border-top:2px solid var(--green);margin-top:40px;padding:26px 0 40px;font-size:.86rem;color:var(--ink-soft)}
 .site-foot a{color:var(--green)}
 .foot-updated{opacity:.85}
-.foot-pub{opacity:.8;max-width:60em}
+.foot-disclosure{opacity:.7;max-width:60em;font-size:.8rem;margin-top:6px}
 @media(max-width:560px){h1{font-size:1.7rem}body{font-size:16px}.site-head .wrap{gap:8px}}
